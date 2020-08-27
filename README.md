@@ -65,4 +65,4 @@ Use a popular style guide - Airbnb
 * Git usage: commit messages, and overall git usage flow
 
 ## Gif
-* Here is my gif [hide](./client/ui-testing-recording.gif)
+* Here is my gif ![hide](./client/ui-testing-recording.gif)
