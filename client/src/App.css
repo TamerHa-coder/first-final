@@ -28,7 +28,7 @@ box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.68);
     grid-template-columns: auto auto auto;
     padding: 10px;
   }
-  ul {
+  ul, li {
     list-style-type: none;
   }
  
