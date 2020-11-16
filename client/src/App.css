@@ -1,0 +1,99 @@
+body{
+    font-family: 'Esteban', serif;
+    margin-top: 50px;
+    background-image: url('https://image.freepik.com/free-photo/stone-surface-background_53876-42935.jpg');
+  }
+
+.ticket {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: auto;
+    /* text-align: center; */
+    border-radius: 25px;
+    margin: 20px;
+      
+    -webkit-box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.68);
+-moz-box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.68);
+box-shadow: 7px 7px 10px -5px rgba(0,0,0,0.68);
+  }
+
+  h1{
+    margin-top: 100px;
+    font-size: 60px;
+      text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  ul, li {
+    list-style-type: none;
+  }
+ 
+
+  .label{
+    padding: 0px 8px 0px 8px;
+    float: right;
+    border: 1px solid gray;
+    margin:-20px 8px 0px 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+
+.topBar{
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    top: 0;
+    float: left;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: gray;
+    
+  }
+  #searchInput{
+      width: 100%;
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 2px 23px 2px 30px;
+      outline: 0;
+  }
+
+
+  .search {
+    background-color: #f5f5f5;
+  }
+
+  .searchWrap {
+    position: relative;
+    display: flex;
+    width: 80%;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+  }
+
+  .clear-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 10px;
+    cursor: pointer;
+    visibility: hidden;
+  }
+
+  .email{
+    text-align: left ;
+  }
+
+  .hideTicketButton{
+    float: right;
+  }
